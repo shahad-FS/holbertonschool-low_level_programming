@@ -9,16 +9,16 @@ int main(void)
 {
     int r;
 
-    r = _isalpha('H');   /* اختبر حرف كبير */
+    r = _isalpha('H');
     _putchar(r + '0');
 
-    r = _isalpha('o');   /* اختبر حرف صغير */
+    r = _isalpha('o');
     _putchar(r + '0');
 
-    r = _isalpha(108);   /* اختبر حرف صغير بالـ ASCII */
+    r = _isalpha(108);
     _putchar(r + '0');
 
-    r = _isalpha(';');   /* اختبر حرف غير أبجدي */
+    r = _isalpha(';');
     _putchar(r + '0');
 
     _putchar('\n');
