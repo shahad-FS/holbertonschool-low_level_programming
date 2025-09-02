@@ -1,12 +1,16 @@
+/*
+ * File : 8- print_array.c
+ */
+
 #include "main.h"
 #include <stdio.h>
 
 /**
- * print-array - Prints an inputted number of elements of an array of integers
+ * print_array - Prints an inputted number of elements of an array of integers
  * @a: The array of integers
  * @n: The number of elements to be printed
  *
- * Return: void 
+ * Return: void
  */
 void print_array(int *a, int n)
 {
@@ -15,7 +19,7 @@ void print_array(int *a, int n)
 	for (index = 0; index < n; index++)
 	{
 		printf("%d", a[index]);
-		if (index == n -1)
+		if (index == n - 1)
 			continue;
 		printf(", ");
 	}
