@@ -2,7 +2,7 @@
 
 /**
  *  int sqrt_helper - helps to find the natural square root recursively
- *  @n: the number to find the square root of 
+ *  @n: the number to find the square root of
  *  @i: the current guess
  *
  *  Return: the natural square root, or -1 if none
