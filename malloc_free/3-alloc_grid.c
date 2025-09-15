@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - Returns a pointer to a 2-D array of 
+ * alloc_grid - Returns a pointer to a 2-D array of
  * integers with each element initalize to 0
  * @width: the width of the 2-D array
  * @height: The height of the 2-D array
@@ -28,7 +28,7 @@ int **alloc_grid(int width, int height)
 	for (hgt_index = 0; hgt_index < height; hgt_index++)
 	{
 		twod[hgt_index] = malloc(sizeof(int) * width);
-		
+
 		if (twod[hgt_index] == NULL)
 		{
 			for (; hgt_index >= 0; hgt_index--)
