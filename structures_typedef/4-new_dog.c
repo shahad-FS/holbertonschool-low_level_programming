@@ -9,11 +9,11 @@ int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
 
-/*
- * _strlen - Find the length of a string
- * @str: The string to be measured
+/**
+ * _strlen - Finds the length of a string.
+ * @str: The string to be measured.
  *
- * Return: The length of the string
+ * Return: The length of the string.
  */
 int _strlen(char *str)
 {
@@ -45,13 +45,13 @@ char *_strcopy(char *dest, char *src)
 	return (dest);
 }
 
-/***
- *new_dog - Create a new dog
- * @name: The name of the dog
- * @age: The age of the dog
- * @owner: The owner of the dog
+/**
+ * new_dog - Creates a new dog.
+ * @name: The name of the dog.
+ * @age: The age of the dog.
+ * @owner: The owner of the dog.
  *
- * Return: The new struct dog
+ * Return: The new struct dog.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
