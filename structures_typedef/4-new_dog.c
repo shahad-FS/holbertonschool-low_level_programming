@@ -1,3 +1,7 @@
+/*
+ * File: 4-new_dog.c
+ */
+
 #include "dog.h"
 #include <stdlib.h>
 
@@ -21,10 +25,10 @@ int _strlen(char *str)
 }
 
 /**
- * _strcopy - Copies a string pointed to by src, including the 
+ * _strcopy - Copies a string pointed to by src, including the
  * terminating null byte, to a buffer pointed to by dest
  * @dest: The buffer storing the string copy
- * @src: The source string 
+ * @src: The source string
  *
  * Return: The pointer to dest
  */
@@ -42,7 +46,7 @@ char *_strcopy(char *dest, char *src)
 }
 
 /***
- * new_dog - Create a new dog
+ *new_dog - Create a new dog
  * @name: The name of the dog
  * @age: The age of the dog
  * @owner: The owner of the dog
