@@ -2,6 +2,9 @@
 #include <string.h>
 #include "lists.h"
 
+
+int _strlen(const char *s);
+
 /**
   * add_node - Adds a new node at the beginning of a list
   * @head: The original linked list
@@ -9,7 +12,6 @@
   *
   * Return: The address of the new list or NULL if it failed
   */
-int _strlen(const char *s);
 
 list_t *add_node(list_t **head, const char *str)
 {
@@ -32,12 +34,13 @@ list_t *add_node(list_t **head, const char *str)
 	}
 	return (0);
 }
+
 /**
-  * _strlen - Returns the length of a string
-  * @s: String to count
-  *
-  * Return: String length
-  */
+ * _strlen - returns the length of a string
+ * @s: string whose length to calculate
+ *
+ * Return: length of the string
+ */
 int _strlen(const char *s)
 {
 	int len = 0;
