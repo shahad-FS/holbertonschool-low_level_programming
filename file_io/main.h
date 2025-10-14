@@ -1,10 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*
- * Desc: Header file containing prototypes for all functions
- * written in file_io directory
- */
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
